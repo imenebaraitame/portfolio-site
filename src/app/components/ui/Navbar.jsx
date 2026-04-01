@@ -1,7 +1,6 @@
-import React from 'react'
 import { useState, useEffect } from "react";
 import { NavLink, useLocation } from "react-router";
-import { Menu, X, Code2 } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const navLinks = [
     { label: "Home", path: "/" },
@@ -14,7 +13,7 @@ const navLinks = [
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     const location = useLocation();
-    
+
     //useLocation + useEffect together handle the auto-close on navigation.
     useEffect(() => {
         setIsOpen(false);
@@ -22,22 +21,17 @@ function Navbar() {
 
     return (
         <header
-            className="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
+            className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 
+            bg-[rgba(10,8,15,0.85)] backdrop-blur-md border-b border-[rgba(255,255,255,0.06)]"
         >
             <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
                 {/* Logo */}
-                <NavLink to="/" className="flex items-center gap-2 group">
-                    <div
-                        className="w-8 h-8 rounded-lg flex items-center justify-center"
-                        style={{ background: "linear-gradient(135deg, #c084fc, #f472b6)" }}
-                    >
-                        <Code2 className="w-4 h-4 text-white" />
-                    </div>
+                <NavLink to="/" className="flex items-center">
                     <span
                         className="tracking-wide"
                         style={{ color: "#e8e8f0", fontWeight: 600, fontSize: "1.05rem" }}
                     >
-                        Imene<span style={{ color: "#c084fc" }}>.</span>
+                        Imene Baraitame<span style={{ color: "#c084fc" }}>.</span>
                     </span>
                 </NavLink>
 

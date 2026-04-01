@@ -4,6 +4,7 @@ import ProjectsPage from "./pages/ProjectsPage";
 import ContactPage from "./pages/ContactPage";
 import Navbar from "./components/ui/Navbar";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {Footer} from "./components/ui/Footer";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
+          <Footer />
         </div>
       </BrowserRouter>
       
