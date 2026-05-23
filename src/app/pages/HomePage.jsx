@@ -115,10 +115,32 @@ function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
           >
+
+            {/* Avatar */}
+            <div className="md:col-span-2 flex justify-center">
+              <div className="relative">
+                <div
+                  className="absolute inset-0 rounded-2xl"
+                  style={{
+                    background: "linear-gradient(135deg, #c084fc, #f472b6)",
+                    transform: "rotate(4deg)",
+                    opacity: 0.3,
+                  }}
+                />
+                <img
+                  src="./profilephoto.webp"
+                  alt="Imene"
+                  className="relative rounded-2xl object-cover"
+                  style={{ width: "200px", height: "200px", border: "2px solid rgba(192,132,252,0.25)" }}
+                />
+              </div>
+            </div>
+
+          
             <h1
               className="mb-4"
               style={{
-                fontSize: "clamp(2.5rem, 6vw, 4.5rem)",
+                fontSize: "clamp(1rem, 3vw, 4rem)",
                 fontWeight: 700,
                 lineHeight: 1.15,
                 color: "#e8e8f0",
@@ -145,7 +167,7 @@ function HomePage() {
               }}
             >
               Full-Stack Developer &amp;{" "}
-              <span style={{ color: "#c084fc" }}>UI/UX Enthusiast</span>
+              <span style={{ color: "#c084fc" }}>Data science Enthusiast</span>
             </h2>
           </motion.div>
 

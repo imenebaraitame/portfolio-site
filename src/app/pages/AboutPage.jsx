@@ -22,27 +22,27 @@ const services = [
 
 const experience = [
   {
-    role: "Full-Stack Developer",
-    company: "TechCorp Solutions",
-    period: "2024 – Present",
+    role: "Java Web Developer",
+    company: "Corposense",
+    period: "2021 – 2023",
     description:
-      "Lead developer for multiple client projects, building full-stack web apps with React and Node.js.",
+      "Built and maintained a REST API layer on top of LogicalDOC Community Edition, extending its document management capabilities",
     type: "work",
   },
   {
-    role: "Frontend Developer",
-    company: "Pixel Studio",
-    period: "2022 – 2024",
+    role: "Master in Financial Mathematics",
+    company: "M'hamed Bougara University",
+    period: "2014 – 2016",
     description:
-      "Developed UI components and design systems, collaborating closely with design teams.",
-    type: "work",
+      "Strong academic background in statistics and quantitative finance, with coursework in Statistical Programming, Finance, Stochastic Processes, Analytical Accounting, Simulation, and Linear Models. Conducted research on “Valuation of Contingent Securities and Option Pricing by Simulation,” focusing on financial modeling and simulation techniques for derivative pricing.",
+    type: "education",
   },
   {
-    role: "B.Sc. Computer Science",
-    company: "Cairo University",
-    period: "2018 – 2022",
+    role: "Bachelor in Financial Mathematics",
+    company: "M'hamed Bougara University",
+    period: "2011 – 2014",
     description:
-      "Graduated with honors. Specialized in software engineering and web technologies.",
+      "Strong foundation in finance, economics, and quantitative analysis through coursework in financial analysis, econometrics, statistics, data analysis, and financial calculus. Conducted research on the validation of a linear model using statistical and analytical methods.",
     type: "education",
   },
 ];
@@ -101,8 +101,8 @@ export function AboutPage() {
                 }}
               />
               <img
-                src="https://images.unsplash.com/photo-1696960181436-1b6d9576354e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBmZW1hbGUlMjBkZXZlbG9wZXIlMjBwb3J0cmFpdCUyMGNvbmZpZGVudHxlbnwxfHx8fDE3NzQ0NjA2NzF8MA&ixlib=rb-4.1.0&q=80&w=400"
-                alt="Mohamed"
+                src="./profilephoto.webp"
+                alt="Imene"
                 className="relative rounded-2xl object-cover"
                 style={{ width: "240px", height: "280px", border: "2px solid rgba(192,132,252,0.25)" }}
               />
