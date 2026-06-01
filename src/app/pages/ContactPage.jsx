@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "motion/react";
+import emailjs from "@emailjs/browser"
 import {
   Mail,
   Send,
@@ -72,17 +73,39 @@ export function ContactPage() {
     }
     setErrors({});
     setLoading(true);
-    // Simulate API call
-    await new Promise((r) => setTimeout(r, 1500));
-    setLoading(false);
-    setSubmitted(true);
+
+    try {
+      const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+      const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+      const publickey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+      
+      if(!serviceId || !templateId || !publickey) {
+        throw new Error(
+          "EmailJS configuration is missing. Please chech your environment variables"
+        );
+      }
+      await emailjs.send(serviceId, templateId, {
+        name: form.name ,
+        email: form.email,
+        subject: form.subject,
+        message: form.message,
+      }, publickey)
+      setSubmitted(true);
+
+    } catch (err) {
+      console.error("EmailJS error:", err);
+      setErrors({ submit: "Failed to send message. Please try again later." });
+    } finally {
+      setLoading(false)
+    }
+
   };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm((prev) => ({ ...prev, [name]: value }));
     if (errors[name]) {
-      setErrors((prev) => ({ ...prev, [name]: undefined }));
+      setErrors((prev) => ({ ...prev, [name]: undefined , submit: undefined}));
     }
   };
 
@@ -364,6 +387,11 @@ export function ContactPage() {
                       </p>
                     )}
                   </div>
+                  {errors.submit && (
+                    <p className="text-sm text-center" style={{ color: "#ff4466" }}>
+                      {errors.submit}
+                    </p>
+                  )}
 
                   <button
                     type="submit"

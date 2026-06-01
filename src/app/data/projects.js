@@ -5,7 +5,7 @@ export const projects = [
     description: "A full-featured online store.",
     longDescription:
       "Built a complete e-commerce solution with product listings, filtering, cart management, and an admin dashboard for inventory management.",
-    image: "/public/e-commerce.webp",
+    image: "/e-commerce.webp",
     tags: ["React", "Node.js", "MongoDB", "TailwindCSS"],
     category: "Full Stack",
     liveUrl: "#",
