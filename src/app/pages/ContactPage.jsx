@@ -51,7 +51,7 @@ export function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState({});
-  const RESUME_URL = "https://drive.google.com/file/d/1_jPZjqZyp7j8iD_Mguew8y9A3iNSDWv4/view?usp=sharing";
+  const RESUME_URL = "https://drive.google.com/file/d/1Fa2AdQU1jJmDXX8nXxquOfq5f-nARrEG/view?usp=sharing";
 
 
   const validate = () => {
