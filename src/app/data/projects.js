@@ -5,7 +5,7 @@ export const projects = [
     description: "A full-featured online store.",
     longDescription:
       "Built a complete e-commerce solution with product listings, filtering, cart management, and an admin dashboard for inventory management.",
-    image: "/e-commerce.webp",
+    image: "/ecommerce.webp",
     tags: ["React", "Node.js", "MongoDB", "TailwindCSS"],
     category: "Full Stack",
     liveUrl: "#",
@@ -37,6 +37,19 @@ export const projects = [
     category: "Frontend",
     liveUrl: "#",
     githubUrl: "https://github.com/imenebaraitame/portfolio-site",
+    featured: true,
+    year: "2026",
+  },
+  {
+    id: 4,
+    title: "Honey Shop — Mini Web App",
+    description: "A simple and clean front-end web application",
+    longDescription:"A simple and clean front-end web application for browsing and managing honey products. Built as a sprint project using vanilla HTML, CSS, and JavaScript.",
+    image: "/honey3.webp",
+    tags: [" HTML", "CSS", "JavaScript"],
+    category: "Frontend",
+    liveUrl: "#",
+    githubUrl: "https://github.com/imenebaraitame/sprint_project2_min_web_app",
     featured: true,
     year: "2026",
   }
