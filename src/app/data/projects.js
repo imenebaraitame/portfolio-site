@@ -48,7 +48,7 @@ export const projects = [
     image: "/honey3.webp",
     tags: [" HTML", "CSS", "JavaScript"],
     category: "Frontend",
-    liveUrl: "#",
+    liveUrl: "https://sprint-project2-min-web-app.vercel.app/",
     githubUrl: "https://github.com/imenebaraitame/sprint_project2_min_web_app",
     featured: true,
     year: "2026",
