@@ -35,7 +35,7 @@ export const projects = [
     image: "/profileSite.png",
     tags: ["React","javaScript","TailWindCSS","Framer Motion","EmailJS"],
     category: "Frontend",
-    liveUrl: "https://portfolio-site-theta-ashy-46.vercel.app",
+    liveUrl: "#",
     githubUrl: "https://github.com/imenebaraitame/portfolio-site",
     featured: true,
     year: "2026",
