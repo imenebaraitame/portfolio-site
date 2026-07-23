@@ -60,7 +60,7 @@ function SkillBar({ name, level, color }) {
 
 function HomePage() {
 
-  const RESUME_URL = "https://drive.google.com/file/d/1_jPZjqZyp7j8iD_Mguew8y9A3iNSDWv4/view?usp=sharing";
+  const RESUME_URL = "Imene_Baraitame_CV.pdf";
   const featuredProjects = projects.filter((p) => p.featured);
 
   return (

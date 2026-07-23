@@ -51,7 +51,7 @@ export function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState({});
-  const RESUME_URL = "https://drive.google.com/file/d/1Fa2AdQU1jJmDXX8nXxquOfq5f-nARrEG/view?usp=sharing";
+  const RESUME_URL = "/Imene_Baraitame_CV.pdf";
 
 
   const validate = () => {
