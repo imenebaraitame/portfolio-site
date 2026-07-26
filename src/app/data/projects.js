@@ -52,6 +52,19 @@ export const projects = [
     githubUrl: "https://github.com/imenebaraitame/sprint_project2_min_web_app",
     featured: true,
     year: "2026",
+  },
+  {
+    id: 5,
+    title: "To do App",
+    description: "A simple and clean front-end web application",
+    longDescription:"",
+    image: "/todo.webp",
+    tags: [" HTML", "CSS", "JavaScript", "ReactJs"],
+    category: "Frontend",
+    liveUrl: "https://to-do-list-app-beige-one.vercel.app/",
+    githubUrl: "https://github.com/imenebaraitame/to-do-list-app",
+    featured: true,
+    year: "2026",
   }
 ];
 
