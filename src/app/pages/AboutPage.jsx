@@ -22,7 +22,7 @@ const services = [
 
 const experience = [
   {
-    role: "Mathematics Teache",
+    role: "Mathematics Teacher",
     company: "Prive school Happy child",
     period: "2021 – Present",
     description:
@@ -56,7 +56,7 @@ const experience = [
 ];
 
 const techStack = [
-  "React", "TypeScript", "JavaScript", "TailwindCSS",
+  "React", "TypeScript", "JavaScript", "TailwindCSS", "Java", "SQL", "C"
   "Node.js", "Express", "Python", "MongoDB", "Git", "Figma", "REST API",
 ];
 
@@ -144,9 +144,13 @@ export function AboutPage() {
               through clean, efficient code and thoughtful design.
             </p>
             <p className="mb-6" style={{ color: "#6a6a8a", lineHeight: "1.9" }}>
-              My journey started with tinkering with HTML and CSS in high school, and has evolved
-              into building complex, scalable systems. I specialize in the JavaScript ecosystem but
-              love exploring new technologies and pushing creative boundaries.
+              I enjoy solving problems, whether they're mathematical equations or software challenges.
+               With a Master's degree in Mathematical Finance, experience as a Java Developer, 
+               and a background teaching secondary mathematics, I've developed strong analytical
+                and communication skills that I now apply to software engineering. As a Full-Stack Developer,
+                 I create modern web applications with React, Node.js, Express, and MongoDB, focusing on clean code, 
+                 intuitive user experiences, and scalable solutions. I'm always looking for opportunities to learn, 
+                 grow, and build products that make a real difference.
             </p>
             <div className="flex flex-wrap gap-3">
               {interests.map(({ icon: Icon, label }) => (
