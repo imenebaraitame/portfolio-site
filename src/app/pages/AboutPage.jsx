@@ -22,6 +22,14 @@ const services = [
 
 const experience = [
   {
+    role: "Mathematics Teache",
+    company: "Prive school Happy child",
+    period: "2021 – Present",
+    description:
+      "Delivered mathematics lessons to secondary school students, Identified students requiring additional support and provided individualized guidance to enhance academic achievement.",
+    type: "work",
+  },
+  {
     role: "Java Web Developer",
     company: "Corposense",
     period: "2021 – 2023",
