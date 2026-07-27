@@ -56,7 +56,7 @@ const experience = [
 ];
 
 const techStack = [
-  "React", "TypeScript", "JavaScript", "TailwindCSS", "Java", "SQL", "C"
+  "React", "TypeScript", "JavaScript", "TailwindCSS", "Java", "SQL", "C",
   "Node.js", "Express", "Python", "MongoDB", "Git", "Figma", "REST API",
 ];
 
