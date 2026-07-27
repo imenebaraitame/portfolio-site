@@ -1,34 +1,6 @@
 export const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-featured online store.",
-    longDescription:
-      "Built a complete e-commerce solution with product listings, filtering, cart management, and an admin dashboard for inventory management.",
-    image: "/ecommerce.webp",
-    tags: ["React", "Node.js", "MongoDB", "TailwindCSS"],
-    category: "Full Stack",
-    liveUrl: "#",
-    githubUrl: "https://github.com/imenebaraitame/ecommerce-warsha",
-    featured: true,
-    year: "2026",
-  },
-  {
-    id: 2,
-    title: "QualiDoK",
-    description: "QualiDoK is web app uses a REST API as a layer on top of LogicalDOC Community Edition with additional features (Multi-Server, OCR...).",
-    longDescription:
-      "QualiDoK is web app uses a REST API as a layer on top of LogicalDOC Community Edition with additional features (Multi-Server, OCR...).",
-    image: "/qualidok.png",
-    tags: ["java", "JavaScript", "Ratpack", "REST API"],
-    category: "Full Stack",
-    liveUrl: "#",
-    githubUrl: "https://github.com/imenebaraitame/QualiDoK",
-    featured: true,
-    year: "2022",
-  },
-  {
-    id: 3,
     title: "Personnal Portfolio",
     description: "A responsive personal portfolio",
     longDescription:"A responsive personal portfolio, featuring smooth animations, a filterable projects section, and a contact form. Designed with accessibility and performance in mind.",
@@ -41,7 +13,7 @@ export const projects = [
     year: "2026",
   },
   {
-    id: 4,
+    id: 2,
     title: "Honey Shop — Mini Web App",
     description: "A simple and clean front-end web application",
     longDescription:"A simple and clean front-end web application for browsing and managing honey products. Built as a sprint project using vanilla HTML, CSS, and JavaScript.",
@@ -54,7 +26,7 @@ export const projects = [
     year: "2026",
   },
   {
-    id: 5,
+    id: 3,
     title: "To do App",
     description: "A simple and clean front-end web application",
     longDescription:"",
@@ -65,7 +37,50 @@ export const projects = [
     githubUrl: "https://github.com/imenebaraitame/to-do-list-app",
     featured: true,
     year: "2026",
-  }
+  },
+  {
+    id: 4,
+    title: "Omra Booking Platform",
+    description: "A complete platform for booking Omra trips.",
+    longDescription:
+      "Developed a comprehensive Omra booking platform that allows users to browse available Omra packages, compare offers, manage bookings. The platform also includes an admin dashboard for managing packages.",
+    image: "/omra.webp",
+    tags: ["HTML", "CSS", "javaScript"],
+    category: "Frontend",
+    liveUrl: "https://omrah-planner-dz.vercel.app/",
+    githubUrl: "https://github.com/imenebaraitame/ecommerce-warsha",
+    featured: true,
+    year: "2026",
+  },
+  {
+    id: 5,
+    title: "QualiDoK",
+    description: "QualiDoK is web app uses a REST API as a layer on top of LogicalDOC Community Edition with additional features (Multi-Server, OCR...).",
+    longDescription:
+      "QualiDoK is web app uses a REST API as a layer on top of LogicalDOC Community Edition with additional features (Multi-Server, OCR...).",
+    image: "/qualidok.png",
+    tags: ["java", "JavaScript", "Ratpack", "REST API"],
+    category: "Full Stack",
+    liveUrl: "#",
+    githubUrl: "https://github.com/imenebaraitame/QualiDoK",
+    featured: true,
+    year: "2022",
+  },
+   
+   {
+    id: 6,
+    title: "E-Commerce Platform",
+    description: "A full-featured online store.",
+    longDescription:
+      "Built a complete e-commerce solution with product listings, filtering, cart management, and an admin dashboard for inventory management.",
+    image: "/ecommerce.webp",
+    tags: ["React", "Node.js", "MongoDB", "TailwindCSS"],
+    category: "Full Stack",
+    liveUrl: "#",
+    githubUrl: "https://github.com/imenebaraitame/ecommerce-warsha",
+    featured: true,
+    year: "2026",
+  },
 ];
 
 export const categories = ["All", "Full Stack", "Frontend"];
